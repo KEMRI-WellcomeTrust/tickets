@@ -89,7 +89,7 @@ shinyServer(function(input, output,session){
       
       
       
-      
+           
     }
     
     else if (input$location=="Mtwapa" & Sys.Date()>selected_D2)  {
@@ -156,7 +156,7 @@ shinyServer(function(input, output,session){
     content = function(file) {
       name <- paste(input$location,"_consolidated" , '.png', sep='')
       
-      ggsave(name, plotInput() )
+      ggsave(name, plotInput() ,width=16.67 , height=5.33)
       file.copy(name, file, overwrite=TRUE)
     }
   )

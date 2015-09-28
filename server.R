@@ -89,9 +89,6 @@ shinyServer(function(input, output,session){
       
       
       
-      #ggsave(file="images/Consolidated Kilifi 2015.png", width=12.03, height=10.9)
-      
-      #  print(graphNrb) 
       
     }
     

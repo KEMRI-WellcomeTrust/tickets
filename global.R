@@ -13,6 +13,9 @@ integer_breaks <- function(x){
   seq.int(0, ceiling(max(x)) ,by = 100) 
 }
 
+integer_breaks2 <- function(x){
+  seq.int(0, ceiling(max(x)) ,by = 20) 
+}
 #connect to the database
 dbase <-odbcConnect(dsn = "sql03" ,pwd = "test" , uid = "test")
 

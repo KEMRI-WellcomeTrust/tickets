@@ -65,7 +65,8 @@ shinyServer(function(input, output,session){
       
       graphKlf <-  ggplot(cons_mergedAll , aes( reorder(month_yr2, order) ,y=count, fill=type )) + geom_bar( stat="identity",position="dodge") +
         ylab("Number of Tickets") +   xlab("Month") +  ggtitle("Tickets in Kilifi") +theme(axis.text.x=element_text(angle = 45, hjust = 1)) +
-        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks) +   scale_x_discrete(drop = FALSE)
+        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks) +   scale_x_discrete(drop = FALSE) +
+        geom_text(aes(label = count), size = 3, hjust = 0.5, vjust = 3, position = position_dodge(width = 0.8)) 
       
       
       
@@ -85,7 +86,8 @@ shinyServer(function(input, output,session){
       
       graphNrb <-  ggplot(cons_mergedAll , aes( reorder(month_yr2, order) ,y=count, fill=type )) + geom_bar( stat="identity",position="dodge") +
         ylab("Number of Tickets") +   xlab("Month") +  ggtitle("Tickets in Nairobi") +theme(axis.text.x=element_text(angle = 45, hjust = 1)) +
-        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks) +   scale_x_discrete(drop = FALSE)
+        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks2) +   scale_x_discrete(drop = FALSE)+
+        geom_text(aes(label = count), size = 3, hjust = 0.5, vjust = 3, position = position_dodge(width = 0.8)) 
       
       
       
@@ -103,7 +105,8 @@ shinyServer(function(input, output,session){
       
       graphMtp <-  ggplot(cons_mergedAll , aes( reorder(month_yr2, order) ,y=count, fill=type )) + geom_bar( stat="identity",position="dodge") +
         ylab("Number of Tickets") +   xlab("Month") +  ggtitle("Tickets in Mtwapa") +theme(axis.text.x=element_text(angle = 45, hjust = 1)) +
-        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks) +   scale_x_discrete(drop = FALSE)
+        theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks2) +   scale_x_discrete(drop = FALSE) +
+        geom_text(aes(label = count), size = 3, hjust = 0.5, vjust = 3, position = position_dodge(width = 0.8)) 
       
       
       

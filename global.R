@@ -48,3 +48,20 @@ tickets$yr_close <- as.factor(format(tickets$CLOSE_DATE, "%Y"))
 table(tickets$yr_close  ,tickets$month_close, tickets$LOCATION_NAME)
 
 
+
+#for creating tables
+open <-ddply(tickets,.(NAME,month_report,yr_report, LOCATION_NAME) ,nrow )
+closed <-ddply(tickets,.(NAME,month_close,yr_close, LOCATION_NAME) ,nrow )
+names(open) <- c('NAME', 'month_report', 'yr_report','LOCATION','count')
+names(closed) <- c('NAME', 'month_report', 'yr_report','LOCATION','count')
+#zz3 <- merge(zz,zz2, by=c('NAME' , 'month_report', 'yr_report'))
+open$type <- 'open'
+closed$type <- 'closed'
+
+
+all_merged <- rbind(open,closed)
+all_merged$yr_report <- as.numeric(as.character(all_merged$yr_report))
+all_merged$month <- as.numeric(as.character(all_merged$month_report))
+all_merged$month_report <- factor(all_merged$month_report,labels=c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"),ordered=TRUE)
+
+

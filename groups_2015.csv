@@ -7,7 +7,9 @@
 "Data Governance","May",2015,"Kilifi",3,"open",5
 "Data Governance","Jul",2015,"Kilifi",4,"open",7
 "Data Governance","Aug",2015,"Kilifi",1,"open",8
-"Data Governance","Sep",2015,"Kilifi",1,"open",9
+"Data Governance","Sep",2015,"Kilifi",3,"open",9
+"Data Governance","Oct",2015,"Kilifi",3,"open",10
+"Data Governance","Nov",2015,"Kilifi",2,"open",11
 "Desktop Support","Jan",2015,"Kilifi",161,"open",1
 "Desktop Support","Jan",2015,"Mtwapa",2,"open",1
 "Desktop Support","Jan",2015,"Nairobi",20,"open",1
@@ -17,7 +19,7 @@
 "Desktop Support","Mar",2015,"Kilifi",147,"open",3
 "Desktop Support","Mar",2015,"Mtwapa",1,"open",3
 "Desktop Support","Mar",2015,"Nairobi",27,"open",3
-"Desktop Support","Apr",2015,"Kilifi",135,"open",4
+"Desktop Support","Apr",2015,"Kilifi",137,"open",4
 "Desktop Support","Apr",2015,"Nairobi",24,"open",4
 "Desktop Support","May",2015,"Kilifi",128,"open",5
 "Desktop Support","May",2015,"Nairobi",10,"open",5
@@ -26,10 +28,15 @@
 "Desktop Support","Jul",2015,"Kilifi",112,"open",7
 "Desktop Support","Jul",2015,"Mtwapa",1,"open",7
 "Desktop Support","Jul",2015,"Nairobi",6,"open",7
-"Desktop Support","Aug",2015,"Kilifi",78,"open",8
+"Desktop Support","Aug",2015,"Kilifi",77,"open",8
 "Desktop Support","Aug",2015,"Nairobi",17,"open",8
-"Desktop Support","Sep",2015,"Kilifi",54,"open",9
-"Desktop Support","Sep",2015,"Nairobi",12,"open",9
+"Desktop Support","Sep",2015,"Kilifi",94,"open",9
+"Desktop Support","Sep",2015,"Nairobi",19,"open",9
+"Desktop Support","Oct",2015,"Kilifi",115,"open",10
+"Desktop Support","Oct",2015,"Nairobi",14,"open",10
+"Desktop Support","Nov",2015,"Kilifi",78,"open",11
+"Desktop Support","Nov",2015,"Mtwapa",3,"open",11
+"Desktop Support","Nov",2015,"Nairobi",8,"open",11
 "Development","Jan",2015,"Kilifi",25,"open",1
 "Development","Jan",2015,"Mtwapa",2,"open",1
 "Development","Feb",2015,"Kilifi",18,"open",2
@@ -40,15 +47,21 @@
 "Development","Jun",2015,"Kilifi",15,"open",6
 "Development","Jul",2015,"Kilifi",11,"open",7
 "Development","Aug",2015,"Kilifi",2,"open",8
-"Development","Sep",2015,"Kilifi",4,"open",9
+"Development","Sep",2015,"Kilifi",12,"open",9
 "Development","Sep",2015,"Mtwapa",1,"open",9
+"Development","Oct",2015,"Kilifi",14,"open",10
+"Development","Nov",2015,"Kilifi",9,"open",11
+"Development","Nov",2015,"Mtwapa",1,"open",11
 "HRMIS","Jun",2015,"Kilifi",1,"open",6
 "HRMIS","Jul",2015,"Kilifi",24,"open",7
 "HRMIS","Jul",2015,"Nairobi",7,"open",7
 "HRMIS","Aug",2015,"Kilifi",2,"open",8
 "HRMIS","Aug",2015,"Nairobi",3,"open",8
-"HRMIS","Sep",2015,"Kilifi",5,"open",9
-"HRMIS","Sep",2015,"Nairobi",2,"open",9
+"HRMIS","Sep",2015,"Kilifi",6,"open",9
+"HRMIS","Sep",2015,"Nairobi",3,"open",9
+"HRMIS","Oct",2015,"Kilifi",2,"open",10
+"HRMIS","Oct",2015,"Nairobi",1,"open",10
+"HRMIS","Nov",2015,"Nairobi",1,"open",11
 "Information Services","Jan",2015,"Kilifi",18,"open",1
 "Information Services","Jan",2015,"Nairobi",3,"open",1
 "Information Services","Feb",2015,"Kilifi",26,"open",2
@@ -65,35 +78,46 @@
 "Information Services","Jul",2015,"Nairobi",1,"open",7
 "Information Services","Aug",2015,"Kilifi",7,"open",8
 "Information Services","Aug",2015,"Nairobi",1,"open",8
-"Information Services","Sep",2015,"Kilifi",15,"open",9
-"Information Services","Sep",2015,"Nairobi",1,"open",9
-"Infrastructure Support","Jan",2015,"Kilifi",155,"open",1
+"Information Services","Sep",2015,"Kilifi",24,"open",9
+"Information Services","Sep",2015,"Nairobi",3,"open",9
+"Information Services","Oct",2015,"Kilifi",9,"open",10
+"Information Services","Oct",2015,"Nairobi",1,"open",10
+"Information Services","Nov",2015,"Kilifi",7,"open",11
+"Information Services","Nov",2015,"Nairobi",1,"open",11
+"Infrastructure Support","Jan",2015,"Kilifi",153,"open",1
 "Infrastructure Support","Jan",2015,"Mtwapa",1,"open",1
 "Infrastructure Support","Jan",2015,"Nairobi",23,"open",1
-"Infrastructure Support","Feb",2015,"Kilifi",202,"open",2
+"Infrastructure Support","Feb",2015,"Kilifi",199,"open",2
 "Infrastructure Support","Feb",2015,"Mtwapa",1,"open",2
 "Infrastructure Support","Feb",2015,"Nairobi",16,"open",2
-"Infrastructure Support","Mar",2015,"Kilifi",155,"open",3
+"Infrastructure Support","Mar",2015,"Kilifi",149,"open",3
 "Infrastructure Support","Mar",2015,"Mtwapa",1,"open",3
 "Infrastructure Support","Mar",2015,"Nairobi",22,"open",3
-"Infrastructure Support","Apr",2015,"Kilifi",125,"open",4
+"Infrastructure Support","Apr",2015,"Kilifi",117,"open",4
 "Infrastructure Support","Apr",2015,"Nairobi",12,"open",4
-"Infrastructure Support","May",2015,"Kilifi",148,"open",5
+"Infrastructure Support","May",2015,"Kilifi",143,"open",5
 "Infrastructure Support","May",2015,"Nairobi",8,"open",5
-"Infrastructure Support","Jun",2015,"Kilifi",195,"open",6
+"Infrastructure Support","Jun",2015,"Kilifi",185,"open",6
 "Infrastructure Support","Jun",2015,"Mtwapa",1,"open",6
-"Infrastructure Support","Jun",2015,"Nairobi",14,"open",6
-"Infrastructure Support","Jul",2015,"Kilifi",188,"open",7
+"Infrastructure Support","Jun",2015,"Nairobi",13,"open",6
+"Infrastructure Support","Jul",2015,"Kilifi",185,"open",7
 "Infrastructure Support","Jul",2015,"Nairobi",14,"open",7
-"Infrastructure Support","Aug",2015,"Kilifi",103,"open",8
+"Infrastructure Support","Aug",2015,"Kilifi",98,"open",8
 "Infrastructure Support","Aug",2015,"Mtwapa",2,"open",8
 "Infrastructure Support","Aug",2015,"Nairobi",10,"open",8
-"Infrastructure Support","Sep",2015,"Kilifi",63,"open",9
-"Infrastructure Support","Sep",2015,"Nairobi",6,"open",9
+"Infrastructure Support","Sep",2015,"Kilifi",101,"open",9
+"Infrastructure Support","Sep",2015,"Nairobi",13,"open",9
+"Infrastructure Support","Oct",2015,"Kilifi",102,"open",10
+"Infrastructure Support","Oct",2015,"Mtwapa",4,"open",10
+"Infrastructure Support","Oct",2015,"Nairobi",9,"open",10
+"Infrastructure Support","Nov",2015,"Kilifi",95,"open",11
+"Infrastructure Support","Nov",2015,"Mtwapa",1,"open",11
+"Infrastructure Support","Nov",2015,"Nairobi",3,"open",11
 "Lab Support","Feb",2015,"Kilifi",2,"open",2
 "Lab Support","Mar",2015,"Kilifi",3,"open",3
 "Lab Support","Jun",2015,"Kilifi",2,"open",6
 "Lab Support","Aug",2015,"Kilifi",1,"open",8
+"Lab Support","Sep",2015,"Kilifi",1,"open",9
 "Printer Support","Jan",2015,"Kilifi",41,"open",1
 "Printer Support","Jan",2015,"Nairobi",7,"open",1
 "Printer Support","Feb",2015,"Kilifi",45,"open",2
@@ -109,31 +133,42 @@
 "Printer Support","Jun",2015,"Nairobi",4,"open",6
 "Printer Support","Jul",2015,"Kilifi",58,"open",7
 "Printer Support","Jul",2015,"Nairobi",4,"open",7
-"Printer Support","Aug",2015,"Kilifi",26,"open",8
+"Printer Support","Aug",2015,"Kilifi",25,"open",8
 "Printer Support","Aug",2015,"Nairobi",5,"open",8
-"Printer Support","Sep",2015,"Kilifi",21,"open",9
-"Printer Support","Sep",2015,"Nairobi",5,"open",9
-"Service Desk","Jan",2015,"Kilifi",87,"open",1
+"Printer Support","Sep",2015,"Kilifi",42,"open",9
+"Printer Support","Sep",2015,"Nairobi",10,"open",9
+"Printer Support","Oct",2015,"Kilifi",65,"open",10
+"Printer Support","Oct",2015,"Mtwapa",1,"open",10
+"Printer Support","Oct",2015,"Nairobi",2,"open",10
+"Printer Support","Nov",2015,"Kilifi",35,"open",11
+"Printer Support","Nov",2015,"Nairobi",3,"open",11
+"Service Desk","Jan",2015,"Kilifi",89,"open",1
 "Service Desk","Jan",2015,"Nairobi",8,"open",1
-"Service Desk","Feb",2015,"Kilifi",142,"open",2
+"Service Desk","Feb",2015,"Kilifi",145,"open",2
 "Service Desk","Feb",2015,"Mtwapa",1,"open",2
 "Service Desk","Feb",2015,"Nairobi",11,"open",2
-"Service Desk","Mar",2015,"Kilifi",105,"open",3
+"Service Desk","Mar",2015,"Kilifi",111,"open",3
 "Service Desk","Mar",2015,"Mtwapa",2,"open",3
 "Service Desk","Mar",2015,"Nairobi",15,"open",3
-"Service Desk","Apr",2015,"Kilifi",111,"open",4
+"Service Desk","Apr",2015,"Kilifi",117,"open",4
 "Service Desk","Apr",2015,"Nairobi",12,"open",4
-"Service Desk","May",2015,"Kilifi",143,"open",5
+"Service Desk","May",2015,"Kilifi",148,"open",5
 "Service Desk","May",2015,"Nairobi",6,"open",5
-"Service Desk","Jun",2015,"Kilifi",147,"open",6
-"Service Desk","Jun",2015,"Nairobi",12,"open",6
-"Service Desk","Jul",2015,"Kilifi",108,"open",7
+"Service Desk","Jun",2015,"Kilifi",157,"open",6
+"Service Desk","Jun",2015,"Nairobi",13,"open",6
+"Service Desk","Jul",2015,"Kilifi",112,"open",7
 "Service Desk","Jul",2015,"Nairobi",8,"open",7
-"Service Desk","Aug",2015,"Kilifi",86,"open",8
+"Service Desk","Aug",2015,"Kilifi",92,"open",8
 "Service Desk","Aug",2015,"Mtwapa",1,"open",8
 "Service Desk","Aug",2015,"Nairobi",10,"open",8
-"Service Desk","Sep",2015,"Kilifi",86,"open",9
-"Service Desk","Sep",2015,"Nairobi",11,"open",9
+"Service Desk","Sep",2015,"Kilifi",140,"open",9
+"Service Desk","Sep",2015,"Nairobi",12,"open",9
+"Service Desk","Oct",2015,"Kilifi",198,"open",10
+"Service Desk","Oct",2015,"Mtwapa",3,"open",10
+"Service Desk","Oct",2015,"Nairobi",8,"open",10
+"Service Desk","Nov",2015,"Kilifi",152,"open",11
+"Service Desk","Nov",2015,"Mtwapa",1,"open",11
+"Service Desk","Nov",2015,"Nairobi",5,"open",11
 "Data Governance","Jan",2015,"Kilifi",10,"closed",1
 "Data Governance","Feb",2015,"Kilifi",8,"closed",2
 "Data Governance","Mar",2015,"Kilifi",6,"closed",3
@@ -142,6 +177,9 @@
 "Data Governance","May",2015,"Mtwapa",1,"closed",5
 "Data Governance","Jun",2015,"Kilifi",4,"closed",6
 "Data Governance","Jul",2015,"Kilifi",3,"closed",7
+"Data Governance","Sep",2015,"Kilifi",1,"closed",9
+"Data Governance","Oct",2015,"Kilifi",6,"closed",10
+"Data Governance","Nov",2015,"Kilifi",3,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "Desktop Support","Jan",2015,"Kilifi",156,"closed",1
@@ -160,12 +198,17 @@ NA,NA,NA,NA,NA,NA,NA
 "Desktop Support","Jun",2015,"Nairobi",17,"closed",6
 "Desktop Support","Jul",2015,"Kilifi",122,"closed",7
 "Desktop Support","Jul",2015,"Nairobi",9,"closed",7
-"Desktop Support","Aug",2015,"Kilifi",70,"closed",8
+"Desktop Support","Aug",2015,"Kilifi",69,"closed",8
 "Desktop Support","Aug",2015,"Mtwapa",1,"closed",8
 "Desktop Support","Aug",2015,"Nairobi",17,"closed",8
-"Desktop Support","Sep",2015,"Kilifi",60,"closed",9
-"Desktop Support","Sep",2015,"Nairobi",9,"closed",9
-NA,NA,NA,NA,NA,NA,NA
+"Desktop Support","Sep",2015,"Kilifi",104,"closed",9
+"Desktop Support","Sep",2015,"Nairobi",19,"closed",9
+"Desktop Support","Oct",2015,"Kilifi",120,"closed",10
+"Desktop Support","Oct",2015,"Mtwapa",1,"closed",10
+"Desktop Support","Oct",2015,"Nairobi",15,"closed",10
+"Desktop Support","Nov",2015,"Kilifi",80,"closed",11
+"Desktop Support","Nov",2015,"Mtwapa",3,"closed",11
+"Desktop Support","Nov",2015,"Nairobi",6,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "Development","Jan",2015,"Kilifi",27,"closed",1
@@ -178,16 +221,20 @@ NA,NA,NA,NA,NA,NA,NA
 "Development","Jun",2015,"Kilifi",7,"closed",6
 "Development","Jul",2015,"Kilifi",11,"closed",7
 "Development","Aug",2015,"Kilifi",5,"closed",8
-"Development","Sep",2015,"Kilifi",2,"closed",9
+"Development","Sep",2015,"Kilifi",6,"closed",9
+"Development","Oct",2015,"Kilifi",7,"closed",10
+"Development","Nov",2015,"Kilifi",5,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "HRMIS","Jul",2015,"Kilifi",22,"closed",7
 "HRMIS","Jul",2015,"Nairobi",6,"closed",7
 "HRMIS","Aug",2015,"Kilifi",2,"closed",8
 "HRMIS","Aug",2015,"Nairobi",1,"closed",8
-"HRMIS","Sep",2015,"Kilifi",6,"closed",9
-"HRMIS","Sep",2015,"Nairobi",3,"closed",9
-NA,NA,NA,NA,NA,NA,NA
+"HRMIS","Sep",2015,"Kilifi",8,"closed",9
+"HRMIS","Sep",2015,"Nairobi",5,"closed",9
+"HRMIS","Oct",2015,"Kilifi",2,"closed",10
+"HRMIS","Oct",2015,"Nairobi",2,"closed",10
+"HRMIS","Nov",2015,"Kilifi",1,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 "Information Services","Jan",2015,"Kilifi",15,"closed",1
 "Information Services","Jan",2015,"Nairobi",1,"closed",1
@@ -204,32 +251,43 @@ NA,NA,NA,NA,NA,NA,NA
 "Information Services","Jul",2015,"Kilifi",10,"closed",7
 "Information Services","Aug",2015,"Kilifi",10,"closed",8
 "Information Services","Aug",2015,"Nairobi",1,"closed",8
-"Information Services","Sep",2015,"Kilifi",5,"closed",9
-"Information Services","Sep",2015,"Nairobi",1,"closed",9
+"Information Services","Sep",2015,"Kilifi",12,"closed",9
+"Information Services","Sep",2015,"Nairobi",3,"closed",9
+"Information Services","Oct",2015,"Kilifi",4,"closed",10
+"Information Services","Oct",2015,"Nairobi",1,"closed",10
+"Information Services","Nov",2015,"Kilifi",1,"closed",11
+"Information Services","Nov",2015,"Nairobi",1,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "Infrastructure Support","Jan",2015,"Kilifi",136,"closed",1
 "Infrastructure Support","Jan",2015,"Nairobi",20,"closed",1
-"Infrastructure Support","Feb",2015,"Kilifi",210,"closed",2
+"Infrastructure Support","Feb",2015,"Kilifi",206,"closed",2
 "Infrastructure Support","Feb",2015,"Mtwapa",2,"closed",2
 "Infrastructure Support","Feb",2015,"Nairobi",17,"closed",2
-"Infrastructure Support","Mar",2015,"Kilifi",140,"closed",3
+"Infrastructure Support","Mar",2015,"Kilifi",134,"closed",3
 "Infrastructure Support","Mar",2015,"Mtwapa",1,"closed",3
 "Infrastructure Support","Mar",2015,"Nairobi",25,"closed",3
-"Infrastructure Support","Apr",2015,"Kilifi",116,"closed",4
+"Infrastructure Support","Apr",2015,"Kilifi",109,"closed",4
 "Infrastructure Support","Apr",2015,"Nairobi",12,"closed",4
-"Infrastructure Support","May",2015,"Kilifi",146,"closed",5
+"Infrastructure Support","May",2015,"Kilifi",139,"closed",5
 "Infrastructure Support","May",2015,"Nairobi",7,"closed",5
-"Infrastructure Support","Jun",2015,"Kilifi",197,"closed",6
-"Infrastructure Support","Jun",2015,"Nairobi",13,"closed",6
-"Infrastructure Support","Jul",2015,"Kilifi",192,"closed",7
+"Infrastructure Support","Jun",2015,"Kilifi",189,"closed",6
+"Infrastructure Support","Jun",2015,"Nairobi",12,"closed",6
+"Infrastructure Support","Jul",2015,"Kilifi",186,"closed",7
 "Infrastructure Support","Jul",2015,"Nairobi",14,"closed",7
-"Infrastructure Support","Aug",2015,"Kilifi",102,"closed",8
+"Infrastructure Support","Aug",2015,"Kilifi",100,"closed",8
 "Infrastructure Support","Aug",2015,"Mtwapa",1,"closed",8
 "Infrastructure Support","Aug",2015,"Nairobi",9,"closed",8
-"Infrastructure Support","Sep",2015,"Kilifi",79,"closed",9
+"Infrastructure Support","Sep",2015,"Kilifi",111,"closed",9
 "Infrastructure Support","Sep",2015,"Mtwapa",2,"closed",9
-"Infrastructure Support","Sep",2015,"Nairobi",6,"closed",9
+"Infrastructure Support","Sep",2015,"Nairobi",10,"closed",9
+"Infrastructure Support","Oct",2015,"Kilifi",110,"closed",10
+"Infrastructure Support","Oct",2015,"Mtwapa",3,"closed",10
+"Infrastructure Support","Oct",2015,"Nairobi",13,"closed",10
+"Infrastructure Support","Nov",2015,"Kilifi",94,"closed",11
+"Infrastructure Support","Nov",2015,"Mtwapa",1,"closed",11
+"Infrastructure Support","Nov",2015,"Nairobi",2,"closed",11
+NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "Lab Support","Jan",2015,"Kilifi",1,"closed",1
@@ -237,7 +295,8 @@ NA,NA,NA,NA,NA,NA,NA
 "Lab Support","Mar",2015,"Kilifi",1,"closed",3
 "Lab Support","Apr",2015,"Kilifi",2,"closed",4
 "Lab Support","Jul",2015,"Kilifi",2,"closed",7
-NA,NA,NA,NA,NA,NA,NA
+"Lab Support","Oct",2015,"Kilifi",2,"closed",10
+"Lab Support","Nov",2015,"Kilifi",1,"closed",11
 "Printer Support","Jan",2015,"Kilifi",39,"closed",1
 "Printer Support","Jan",2015,"Nairobi",7,"closed",1
 "Printer Support","Feb",2015,"Kilifi",48,"closed",2
@@ -255,30 +314,41 @@ NA,NA,NA,NA,NA,NA,NA
 "Printer Support","Jul",2015,"Nairobi",4,"closed",7
 "Printer Support","Aug",2015,"Kilifi",35,"closed",8
 "Printer Support","Aug",2015,"Nairobi",5,"closed",8
-"Printer Support","Sep",2015,"Kilifi",20,"closed",9
-"Printer Support","Sep",2015,"Nairobi",5,"closed",9
+"Printer Support","Sep",2015,"Kilifi",42,"closed",9
+"Printer Support","Sep",2015,"Nairobi",10,"closed",9
+"Printer Support","Oct",2015,"Kilifi",64,"closed",10
+"Printer Support","Oct",2015,"Mtwapa",1,"closed",10
+"Printer Support","Oct",2015,"Nairobi",2,"closed",10
+"Printer Support","Nov",2015,"Kilifi",38,"closed",11
+"Printer Support","Nov",2015,"Nairobi",3,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 "Service Desk","Jan",2015,"Kilifi",72,"closed",1
 "Service Desk","Jan",2015,"Nairobi",7,"closed",1
-"Service Desk","Feb",2015,"Kilifi",130,"closed",2
+"Service Desk","Feb",2015,"Kilifi",134,"closed",2
 "Service Desk","Feb",2015,"Mtwapa",1,"closed",2
 "Service Desk","Feb",2015,"Nairobi",12,"closed",2
-"Service Desk","Mar",2015,"Kilifi",97,"closed",3
+"Service Desk","Mar",2015,"Kilifi",103,"closed",3
 "Service Desk","Mar",2015,"Mtwapa",3,"closed",3
 "Service Desk","Mar",2015,"Nairobi",15,"closed",3
-"Service Desk","Apr",2015,"Kilifi",104,"closed",4
+"Service Desk","Apr",2015,"Kilifi",111,"closed",4
 "Service Desk","Apr",2015,"Nairobi",12,"closed",4
-"Service Desk","May",2015,"Kilifi",147,"closed",5
+"Service Desk","May",2015,"Kilifi",154,"closed",5
 "Service Desk","May",2015,"Nairobi",6,"closed",5
-"Service Desk","Jun",2015,"Kilifi",157,"closed",6
-"Service Desk","Jun",2015,"Nairobi",12,"closed",6
-"Service Desk","Jul",2015,"Kilifi",121,"closed",7
+"Service Desk","Jun",2015,"Kilifi",165,"closed",6
+"Service Desk","Jun",2015,"Nairobi",13,"closed",6
+"Service Desk","Jul",2015,"Kilifi",126,"closed",7
 "Service Desk","Jul",2015,"Nairobi",7,"closed",7
-"Service Desk","Aug",2015,"Kilifi",85,"closed",8
+"Service Desk","Aug",2015,"Kilifi",87,"closed",8
 "Service Desk","Aug",2015,"Mtwapa",1,"closed",8
 "Service Desk","Aug",2015,"Nairobi",11,"closed",8
-"Service Desk","Sep",2015,"Kilifi",71,"closed",9
-"Service Desk","Sep",2015,"Nairobi",9,"closed",9
+"Service Desk","Sep",2015,"Kilifi",115,"closed",9
+"Service Desk","Sep",2015,"Nairobi",11,"closed",9
+"Service Desk","Oct",2015,"Kilifi",205,"closed",10
+"Service Desk","Oct",2015,"Mtwapa",1,"closed",10
+"Service Desk","Oct",2015,"Nairobi",9,"closed",10
+"Service Desk","Nov",2015,"Kilifi",158,"closed",11
+"Service Desk","Nov",2015,"Mtwapa",2,"closed",11
+"Service Desk","Nov",2015,"Nairobi",5,"closed",11
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA

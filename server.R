@@ -47,7 +47,19 @@ shinyServer(function(input, output,session){
     
   })
   
+  autoInvalidate <- reactiveTimer(360000000, session)
   
+  observe({
+    # Invalidate and re-execute this reactive expression every time the
+    # timer fires.
+    autoInvalidate()
+    source("global.R")
+    # Do something each time this is invalidated.
+    # The isolate() makes this observer _not_ get invalidated and re-executed
+    # when input$n changes.
+    # print(paste("The value of input$x is", isolate(input$xMonth)))
+    
+  })
   
   plotInput <- reactive( {
     selected2 <- paste("01" , input$month , format(Sys.Date(), "%Y") , sep = "-")
@@ -134,7 +146,7 @@ shinyServer(function(input, output,session){
   })
   
   
-  
+
   
   
   # output$downloadGraph <- downloadHandler(
@@ -151,7 +163,7 @@ shinyServer(function(input, output,session){
   #   })
   
   
-  output$downloadGraph <- downloadHandler(
+output$downloadGraph <- downloadHandler(
     filename = function() {
       
       paste(input$location,"_consolidated" , '.png', sep='')
@@ -163,8 +175,64 @@ shinyServer(function(input, output,session){
       file.copy(name, file, overwrite=TRUE)
     }
   )
+ 
+#------------------------------------------------------------------------------------#
+ #this creates the tables for closed and open tickets
+output$ticket_tables <- renderDataTable({
   
+if (input$type=="Open")  {
   
+  all_mergedOpen <- all_merged[all_merged$yr_report==input$yrTicket & all_merged$type=="open",]
+  all_mergedOpen <- all_mergedOpen[c("NAME" , "month_report", "LOCATION"   ,  "count" )]
+  all_mergedOpen <- dcast(melt(all_mergedOpen), NAME + LOCATION ~ month_report  )
   
+}
+else if(input$type=="Closed") {
+  all_mergedClosed <- all_merged[all_merged$yr_report==input$yrTicket & all_merged$type=="closed",]
+  all_mergedClosed <- all_mergedClosed[c("NAME" , "month_report", "LOCATION"   ,  "count" )]
+  all_mergedClosed <- all_mergedClosed[!is.na(all_mergedClosed$count),]
+  all_mergedClosed <- dcast(melt(all_mergedClosed), NAME + LOCATION ~ month_report  )
+}
+ 
+} , options = list(paging = FALSE, searching = FALSE)) #end renderDataTable
+
+ticket_tablesData <- reactive({
+  if (input$type=="Open")  {
+    
+    all_mergedOpen <- all_merged[all_merged$yr_report==input$yrTicket & all_merged$type=="open",]
+    all_mergedOpen <- all_mergedOpen[c("NAME" , "month_report", "LOCATION"   ,  "count" )]
+    all_mergedOpen <- dcast(melt(all_mergedOpen), NAME + LOCATION ~ month_report  )
+    
+  }
+  else if(input$type=="Closed") {
+    all_mergedClosed <- all_merged[all_merged$yr_report==input$yrTicket & all_merged$type=="closed",]
+    all_mergedClosed <- all_mergedClosed[c("NAME" , "month_report", "LOCATION"   ,  "count" )]
+    all_mergedClosed <- all_mergedClosed[!is.na(all_mergedClosed$count),]
+    all_mergedClosed <- dcast(melt(all_mergedClosed), NAME + LOCATION ~ month_report  )
+  }
+})
+
+
+
   
+  #this downloads the table of the created tickets
+  output$downloadTicketTable <-  downloadHandler(
+    
+    # This function returns a string which tells the client
+    # browser what name to use when saving the file.
+    filename = function() {
+      month<- format( Sys.Date(), "%b")
+      name <- paste(month , input$yrTicket , sep = "_")
+      paste(name,  "csv", sep = ".")
+    },
+    
+    # This function should write data to a file given to it by
+    # the argument 'file'.
+    content = function(file) {
+    #  data <- switch(input$type, "Open" = all_mergedOpen ,"Closed" =all_mergedClosed )
+    data <- ticket_tablesData()
+      # Write to a file specified by the 'file' argument
+      write.csv(data, file, row.names = F,  na="")
+    }
+  )
 })#end server

@@ -72,6 +72,9 @@ cons_mergedAll$month_yrL <- factor(cons_mergedAll$month_yr,
                                             "Sep-2014","Oct-2014","Nov-2014","Dec-2014", "Jan-2015","Feb-2015","Mar-2015","Apr-2015"),ordered=TRUE)
 
 
+
+
+
 ggplot(cons_mergedAll[order(cons_mergedAll$month_report, cons_mergedAll$yr_report),], aes( month_yrL ,count, fill=type)) + geom_bar( stat="identity",position="dodge") +
 ylab("Number of Tickets") +   xlab("Month") +  ggtitle("Tickets in Kilifi") +theme(axis.text.x=element_text(angle = 45, hjust = 1)) +
 theme_bw()  +  scale_fill_manual(values=cbPalette) +  scale_y_continuous(breaks=integer_breaks) +   scale_x_discrete(drop = FALSE)

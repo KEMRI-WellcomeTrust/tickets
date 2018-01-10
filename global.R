@@ -17,10 +17,10 @@ integer_breaks2 <- function(x){
   seq.int(0, ceiling(max(x)) ,by = 20) 
 }
 #connect to the database
-dbase <-odbcConnect(dsn = "sql03" ,pwd = "test" , uid = "test")
+dbase <-odbcConnect(dsn = "wewewachasql03" ,pwd = "kenyayetutest" , uid = "kenyayetutest")
 
-ticket_data <- sqlFetch(dbase, 'open_ticket_vw')
-tickets <- sqlQuery(dbase, "select * FROM open_ticket_vw",as.is = TRUE)
+ticket_data <- sqlFetch(dbase, 'open_ticket_vw_wachawewe')
+tickets <- sqlQuery(dbase, "select * FROM open_ticket_vw_wachawewe",as.is = TRUE)
 close(dbase)
 
 
